@@ -1,8 +1,11 @@
+import Hero from "./(home)/Hero/Hero";
+import Reviews from "./(home)/Reviews/Reviews";
 
 export default function Home() {
   return (
     <div>
-      <h1>Home</h1>
+      <Hero />
+      <Reviews />
     </div>
   );
 }

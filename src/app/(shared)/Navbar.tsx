@@ -36,7 +36,7 @@ const Navbar = () => {
         </div>
 
         <div className='flex-1 flex justify-end'>
-          <Button>Login</Button>
+          <Button className='bg-blue-900 hover:cursor-pointer hover:bg-blue-700 transition-colors duration-300'>Login</Button>
         </div>
       </div>
     </header>
